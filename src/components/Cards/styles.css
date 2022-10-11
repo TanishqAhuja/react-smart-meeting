@@ -1,0 +1,49 @@
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  border: 4px solid deepskyblue;
+  border-radius: 10px;
+  height: 400px;
+  width: 350px;
+  margin: 30px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  height: 450px;
+  width: 400px;
+  border: 8px solid deepskyblue;
+  box-shadow: 15px 15px midnightblue;
+}
+
+.cardHeading {
+  margin: 0;
+  border-bottom: 2px solid deepskyblue;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContent {
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+
+.cardDetails {
+  font-size: 2rem;
+}
+
+.cardDetails > li {
+  margin: 15px 0;
+}
